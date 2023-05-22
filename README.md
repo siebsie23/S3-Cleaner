@@ -17,7 +17,7 @@ DELETE_AFTER_DAYS: The number of days after which files should be deleted
 BUCKETS: A comma-separated list of buckets to delete files from
 ```
 
-You can also run the image from a docker-compose file an example of which is provided below:
+You can also run the image from a docker-compose file, an example of which is provided below:
 ```yaml
 version: '3'
 services:
