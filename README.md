@@ -44,6 +44,7 @@ docker build -t s3-deleter .
 
 ## Future Plans
 - Add support for multiple servers
+- Customize how often the script should check for old files
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
