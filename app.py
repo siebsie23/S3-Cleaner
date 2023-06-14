@@ -74,7 +74,8 @@ schedule.every(hour_period).hours.do(job)
 print("Running the job now before starting the scheduler")
 job()
 
-print(f"Scheduler started! Deleting files older than {days} days from AWS S3 every 12 hours.")
+print(f"""Scheduler started! Deleting files older than {days} days from AWS S3
+       every {hour_period} hours.""")
 
 while True:
     schedule.run_pending()
