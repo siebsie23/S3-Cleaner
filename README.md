@@ -10,14 +10,14 @@ ghcr.io/siebsie23/s3-deleter:latest
 
 To run the image you must provide the following environment variables:
 ```yaml
-HOUR_PERIOD: 24
-SERVER_URL: The URL of the S3 server
-ACCESS_KEY: The access key for the S3 server
-SECRET_KEY: The secret key for the S3 server
-REGION: The region of the S3 server
-DELETE_AFTER_DAYS: The number of days after which files should be deleted
-BUCKETS: A comma-separated list of buckets to delete files from
-FORCE_DELETE: true
+HOUR_PERIOD: How often the script should check for old files (int)
+SERVER_URL: The URL of the S3 server (string)
+ACCESS_KEY: The access key for the S3 server (string)
+SECRET_KEY: The secret key for the S3 server (string)
+REGION: The region of the S3 server (string)
+DELETE_AFTER_DAYS: The number of days after which files should be deleted (int)
+BUCKETS: A comma-separated list of buckets to delete files from (string)
+FORCE_DELETE: If the script should skip governance retention (bool)
 ```
 
 ### Variable explenations
