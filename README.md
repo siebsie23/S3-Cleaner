@@ -1,4 +1,4 @@
-# S3-Cleaner
+# S3-Deleter
 Docker image that automatically deletes/wipes old files from S3 buckets. Useful for unofficial S3 servers that don't support lifecycle policies or object expiration.
 Images older then the specified amount of days will be deleted.
 
